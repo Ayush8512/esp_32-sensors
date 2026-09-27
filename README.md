@@ -27,6 +27,8 @@ esp_32-sensors/
 │   ├── temperature_humidity/
 │   │   ├── dht11_dht22/
 │   │   └── ds18b20/
+│   ├── optical_proximity/
+│   │   └── ir_obstacle_sensor/
 │   ├── distance_motion/
 │   │   ├── hc_sr04_ultrasonic/
 │   │   └── pir_motion/
@@ -51,6 +53,7 @@ esp_32-sensors/
 
 | Sensor Name | Category | Communication | Operating Voltage | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **IR Obstacle Sensor** | Proximity / Detection | Digital Output (Active LOW) | 3.3V - 5V | ✅ Completed |
 | **DHT11 / DHT22** | Temp & Humidity | 1-Wire Digital | 3.3V - 5V | 📋 Planned |
 | **HC-SR04** | Ultrasonic Distance | Digital (Trigger / Echo) | 5V (Level Shifter / Divider) | 📋 Planned |
 | **MPU6050** | 6-Axis Gyro & Accel | I2C (SDA: 21, SCL: 22) | 3.3V | 📋 Planned |
