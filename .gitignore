@@ -1,0 +1,25 @@
+# Compilation outputs
+*.o
+*.elf
+*.bin
+*.hex
+
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+
+# Arduino IDE
+build/
+*.sketch/
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
